@@ -6,6 +6,6 @@ The implementation offers some architectural flexibility, for example, user can 
 The class inputs are:
 + inpCha: number of channels in the input image.
 + finOutCha: depth of the output tensor.
-+ depths: the is a list of integer. The lenght of the list gives the number of blocks in the encoder. Each integer is the number of kernels for the convolutions in the respective blocks.
++ lasKer: the is a list of integers. The length of the list gives the number of blocks in the encoder. Each integer is the number of kernels for the convolutions in the respective blocks.
 + inpWidth: width of the input image.
 + inpHeight: height of the input image.

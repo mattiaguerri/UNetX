@@ -1,8 +1,8 @@
 # UNetX
 
-PyTorch implementation of U-shaped network architecture.
-The implementation offers some architectural flexibility, for example, user can choose number of blocks in the encoding path (simmetrically repeated in the decoder). Also number of kernels in the convolutions defining the blocks are tweakable.
-model = UNetX(inpCha, outCha, lstKer, inpWidth, inpHeight)
+PyTorch implementation of U-shaped network architecture.\\
+The implementation offers some architectural flexibility, for example, user can choose number of blocks in the encoding path (simmetrically repeated in the decoder). Also number of kernels in the convolutions defining the blocks are tweakable.\\
+
 The class inputs are:
 + (self, inCha, finOutCha, depths, inWidth, inHeight):
 + inpCha: number of channels in the input image.
